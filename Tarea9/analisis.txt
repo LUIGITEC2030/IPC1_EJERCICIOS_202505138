@@ -1,0 +1,25 @@
+========================================================
+PREGUNTA 1
+¿Cuál es la comprejidad Big-O de insertarOrdenado que implementaste?
+Mi comprejidad implementado es O(n).
+
+Justificacion: 
+Porque es necesario recorrer la lista desde el inicio hasta encontrar la posición correcta. En el peor de los casos, se recorre toda la lista.
+ 
+========================================================
+PREGUNTA 2
+- Buscar al estudiante con el carnet 202300001 
+	Más efectivo: Ambos
+	Contamos con la misma eficiencia debido a que en ambos casos debe recorrer la lista e ir comparando dato con dato, esto implica comprejidad O(n) en el peor de los casos(recorrer toda la lista).   
+
+- Agregar 500 estudiantes nuevos al inicio del registro 
+	Más efectivo: Lista enlazada
+	La lista enlazada nos permite el ingreso dinámico de los datos al inicio, si tuviesemos un ARRAY deberiamos ir creando copias de los ARRAY e ir agregando los valores al inicio.  
+
+- Acceder directamente al 3er estudiante de la lista 
+	Más efectivo: Array
+	El array nos facilita el acceso a elementos específicos debido a que contamos con un índice, es decir la comprejidad será constante O(1) mientras que en la Lista Enlazada debemos recorrerla toda o casi toda es decir O(n).
+
+
+
+
